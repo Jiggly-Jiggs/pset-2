@@ -27,21 +27,21 @@ public class ProblemSet2 {
          * Prompt the user to enter the following information (in order): first name, last
          * name, grade, age, and hometown.
          */
-         // 
-         // System.out.println("\nEnter your first name: ");
+
+         // System.out.print("\nEnter your first name: ");
          // String firstName = in.nextLine();
          //
-         // System.out.println("Enter your last name: ");
+         // System.out.print("Enter your last name: ");
          // String lastName = in.nextLine();
          //
-         // System.out.println("Enter your grade: ");
+         // System.out.print("Enter your grade: ");
          // int grade = in.nextInt();
          //
-         // System.out.println("Enter your age: ");
+         // System.out.print("Enter your age: ");
          // int age = in.nextInt();
          // in.nextLine();
          //
-         // System.out.println("Enter your hometown: ");
+         // System.out.print("Enter your hometown: ");
          // String hometown = in.nextLine();
          //
          //
@@ -49,8 +49,6 @@ public class ProblemSet2 {
          // System.out.println("GRADE    : " + grade);
          // System.out.println("AGE      : " + age);
          // System.out.println("HOMETOWN : " + hometown);
-         //
-         // in.close();
 
         /*
          * Exercise 2.
@@ -59,7 +57,30 @@ public class ProblemSet2 {
          * bills, quarters, dimes, nickels, and pennies needed to produce this amount.
          */
 
-         System.out.println("Enter a dollar amount: " + Math.random(0.00, 100.00));
+         final int DOLLAR = 100;
+         final int QUARTER = 25;
+         final int DIME = 10;
+         final int NICKEL = 5;
+         final int PENNY = 1;
+
+         // System.out.print("\nEnter a dollar amount: ");
+         // double total = in.nextDouble() * 100;
+         //
+         // int amountDollar = (int) (total / DOLLAR);
+         // total = total % DOLLAR;
+         // int amountQuarter = (int) (total / QUARTER);
+         // total = total % QUARTER;
+         // int amountDime = (int) (total / DIME);
+         // total = total % DIME;
+         // int amountNickel = (int) (total / NICKEL);
+         // total = total % NICKEL;
+         // int amountPenny = (int) (total / PENNY);
+         //
+         // System.out.println("\nDOLLARS  : " + amountDollar);
+         // System.out.println("QUARTERS : " + amountQuarter);
+         // System.out.println("DIMES    : " + amountDime);
+         // System.out.println("NICKELS  : " + amountNickel);
+         // System.out.println("PENNIES  : " + amountPenny);
 
         /*
          * Exercise 3.
@@ -68,7 +89,29 @@ public class ProblemSet2 {
          * bills and coins needed to produce this amount.
          */
 
+         final int DOLLAR_TEN = 1000;
+         final int DOLLAR_FIVE = 500;
 
+         // System.out.print("\nEnter a dollar amount: ");
+         // total = in.nextDouble() * 100;
+         //
+         // int amountBills = (int) (total / DOLLAR_TEN);
+         // total = total % DOLLAR_TEN;
+         // amountBills = (int) (amountBills + (total / DOLLAR_FIVE));
+         // total = total % DOLLAR_FIVE;
+         // amountBills = (int) (amountBills + (total / DOLLAR));
+         // total = total % DOLLAR;
+         //
+         // int amountCoins = (int) (total / QUARTER);
+         // total = total % QUARTER;
+         // amountCoins = (int) (amountCoins + (total / DIME));
+         // total = total % DIME;
+         // amountCoins = (int) (amountCoins + (total / NICKEL));
+         // total = total % NICKEL;
+         // amountCoins = (int) (amountCoins + (total / PENNY));
+         //
+         // System.out.println("\nBILLS : " + amountBills);
+         // System.out.println("COINS : " + amountCoins);
 
         /*
          * Exercise 4.
@@ -77,7 +120,7 @@ public class ProblemSet2 {
          * and inches.
          */
 
-
+         
 
         /*
          * Exercise 5.
