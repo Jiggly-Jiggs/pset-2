@@ -120,7 +120,12 @@ public class ProblemSet2 {
          * and inches.
          */
 
-         
+         final int inchesMile = 63360;
+         final int inchesYard = 36;
+         final int inchesFeet = 12;
+
+         System.out.print("\nEnter a number of inches: ");
+         total = in.nextInt();
 
         /*
          * Exercise 5.
