@@ -61,20 +61,20 @@ public class ProblemSet2 {
          final int QUARTER = 25;
          final int DIME = 10;
          final int NICKEL = 5;
-         //final int PENNY = 1;
+         final int PENNY = 1;
 
          // System.out.print("\nEnter a dollar amount: ");
-         // double total = in.nextDouble() * 100;
-
-         // int amountDollar = (int) (total / DOLLAR);
-         // total = total % DOLLAR;
-         // int amountQuarter = (int) (total / QUARTER);
-         // total = total % QUARTER;
-         // int amountDime = (int) (total / DIME);
-         // total = total % DIME;
-         // int amountNickel = (int) (total / NICKEL);
-         // total = total % NICKEL;
-         // int amountPenny = (int) (total / PENNY);
+         // double totalExTwo = in.nextDouble() * 100;
+         //
+         // int amountDollar = (int) (totalExTwo / DOLLAR);
+         // totalExTwo = totalExTwo % DOLLAR;
+         // int amountQuarter = (int) (totalExTwo / QUARTER);
+         // totalExTwo = totalExTwo % QUARTER;
+         // int amountDime = (int) (totalExTwo / DIME);
+         // totalExTwo = totalExTwo % DIME;
+         // int amountNickel = (int) (totalExTwo / NICKEL);
+         // totalExTwo = totalExTwo % NICKEL;
+         // int amountPenny = (int) (totalExTwo / PENNY);
          //
          // System.out.println("\nDOLLARS  : " + amountDollar);
          // System.out.println("QUARTERS : " + amountQuarter);
@@ -93,22 +93,22 @@ public class ProblemSet2 {
          final int DOLLAR_FIVE = 500;
 
          // System.out.print("\nEnter a dollar amount: ");
-         // total = in.nextDouble() * 100;
+         // double totalExThree = in.nextDouble() * 100;
          //
-         // int amountBills = (int) (total / DOLLAR_TEN);
-         // total = total % DOLLAR_TEN;
-         // amountBills = (int) (amountBills + (total / DOLLAR_FIVE));
-         // total = total % DOLLAR_FIVE;
-         // amountBills = (int) (amountBills + (total / DOLLAR));
-         // total = total % DOLLAR;
+         // int amountBills = (int) (totalExThree / DOLLAR_TEN);
+         // totalExThree = totalExThree % DOLLAR_TEN;
+         // amountBills = (int) (amountBills + (totalExThree / DOLLAR_FIVE));
+         // totalExThree = totalExThree % DOLLAR_FIVE;
+         // amountBills = (int) (amountBills + (totalExThree / DOLLAR));
+         // totalExThree = totalExThree % DOLLAR;
          //
-         // int amountCoins = (int) (total / QUARTER);
-         // total = total % QUARTER;
-         // amountCoins = (int) (amountCoins + (total / DIME));
-         // total = total % DIME;
-         // amountCoins = (int) (amountCoins + (total / NICKEL));
-         // total = total % NICKEL;
-         // amountCoins = (int) (amountCoins + (total / PENNY));
+         // int amountCoins = (int) (totalExThree / QUARTER);
+         // totalExThree = totalExThree % QUARTER;
+         // amountCoins = (int) (amountCoins + (totalExThree / DIME));
+         // totalExThree = totalExThree % DIME;
+         // amountCoins = (int) (amountCoins + (totalExThree / NICKEL));
+         // totalExThree = totalExThree % NICKEL;
+         // amountCoins = (int) (amountCoins + (totalExThree / PENNY));
          //
          // System.out.println("\nBILLS : " + amountBills);
          // System.out.println("COINS : " + amountCoins);
@@ -124,21 +124,21 @@ public class ProblemSet2 {
          final int inchesYard = 36;
          final int inchesFeet = 12;
 
-         System.out.print("\nEnter a number of inches: ");
-         double total = in.nextInt();
-
-         int amountMiles = (int) (total / inchesMile);
-         total = total % inchesMile;
-         int amountYards = (int) (total / inchesYard);
-         total = total % inchesYard;
-         int amountFeet = (int) (total / inchesFeet);
-         total = total % inchesFeet;
-         int amountInches = (int) (total);
-
-         System.out.println("\nMILES  : " + amountMiles);
-         System.out.println("YARDS  : " + amountYards);
-         System.out.println("FEET   : " + amountFeet);
-         System.out.println("INCHES : " + amountInches);
+         // System.out.print("\nEnter a number of inches: ");
+         // double inches = in.nextInt();
+         //
+         // int amountMiles = (int) (inches / inchesMile);
+         // inches = inches % inchesMile;
+         // int amountYards = (int) (inches / inchesYard);
+         // inches = inches % inchesYard;
+         // int amountFeet = (int) (inches / inchesFeet);
+         // inches = inches % inchesFeet;
+         // int amountInches = (int) (inches);
+         //
+         // System.out.println("\nMILES  : " + amountMiles);
+         // System.out.println("YARDS  : " + amountYards);
+         // System.out.println("FEET   : " + amountFeet);
+         // System.out.println("INCHES : " + amountInches);
 
         /*
          * Exercise 5.
@@ -147,42 +147,43 @@ public class ProblemSet2 {
          * meters, and centimeters.
          */
 
-        //  final int CENTIMETER_KILOMETER = 100000;
-        //  final int CENTIMETER_METER = 10;
-        //
-        //  System.out.print("\nEnter a number of centimeters: ");
-        //  total = in.nextInt() * 100000;
-        //
-        //  int amountKilometer = (int) (total / CENTIMETER_KILOMETER);
-        //  total = total % CENTIMETER_KILOMETER;
-        //  int amountMeter = (int) (total / CENTIMETER_METER);
-        //  total = total % CENTIMETER_METER;
-        //  int amountCentimeter = (int) total;
-        //
-        //  System.out.println("\nKILOMETERS  : " + amountKilometer);
-        //  System.out.println("METERS      : " + amountMeter);
-        //  System.out.println("CENTIMETERS : " + amountCentimeter);
-        //
-        //
-        // /*
-        //  * Exercise 6.
-        //  *
-        //  * Given a diameter, print the area and circumference of the corresponding circle.
-        //  */
-        //
-        //  System.out.print("\nEnter a diameter: ");
-        //  double diameter = in.nextDouble();
-        //
-        //  double area = Math.PI * Math.pow((diameter / 2), 2);
-        //
-        //
-        // /*
-        //  * Exercise 7.
-        //  *
-        //  * Given a length and width, print the area, perimeter, and diagonal of the
-        //  * corresponding rectangle.
-        //  */
-        //
+         final int CENTIMETER_KILOMETER = 100000;
+         final int CENTIMETER_METER = 100;
+
+         // System.out.print("\nEnter a number of centimeters: ");
+         // int centimeters = in.nextInt();
+         //
+         // int amountKilometer = (centimeters / CENTIMETER_KILOMETER);
+         // centimeters = centimeters % CENTIMETER_KILOMETER;
+         // int amountMeter = (centimeters / CENTIMETER_METER);
+         // centimeters = centimeters % CENTIMETER_METER;
+         //
+         // System.out.println("\nKILOMETERS  : " + amountKilometer);
+         // System.out.println("METERS      : " + amountMeter);
+         // System.out.println("CENTIMETERS : " + centimeters);
+
+
+        /*
+         * Exercise 6.
+         *
+         * Given a diameter, print the area and circumference of the corresponding circle.
+         */
+
+         // System.out.print("\nEnter a diameter: ");
+         // double diameter = in.nextDouble();
+         //
+         // double area = Math.PI * Math.pow((diameter / 2), 2);
+         // double circumference = 2 * Math.PI * (diameter / 2);
+         // System.out.printf("\nAREA          : %.2f", area);
+         // System.out.printf("\nCIRCUMFERENCE : %.2f", circumference);
+
+        /*
+         * Exercise 7.
+         *
+         * Given a length and width, print the area, perimeter, and diagonal of the
+         * corresponding rectangle.
+         */
+
         //  System.out.print("\nEnter a length: ");
         //  int length = in.nextInt();
         //  System.out.print("Enter a width: ");
@@ -195,13 +196,13 @@ public class ProblemSet2 {
         //  System.out.printf("%.2f\nAREA      : ", area);
         //  System.out.printf("%.2f PERIMETER : ", perimeter);
         //  System.out.printf("%.2f DIAGONAL  : ", diagonal);
-        //
-        // /*
-        //  * Exercise 8.
-        //  *
-        //  * Given a side length, print the area and perimeter of the corresponding hexagon.
-        //  */
-        //
+
+        /*
+         * Exercise 8.
+         *
+         * Given a side length, print the area and perimeter of the corresponding hexagon.
+         */
+
         //  System.out.print("\nEnter a side length: ");
         //  int side = in.nextInt();
         //
@@ -210,14 +211,14 @@ public class ProblemSet2 {
         //
         //  System.out.printf("%.2f \nAREA      : ", area);
         //  System.out.printf("%.2f PERIMETER : ", perimeter);
-        //
-        //
-        // /*
-        //  * Exercise 9.
-        //  *
-        //  * Given a string, reverse and print the first and second halves of that string.
-        //  */
-        //
+
+
+        /*
+         * Exercise 9.
+         *
+         * Given a string, reverse and print the first and second halves of that string.
+         */
+        
         //  System.out.print("Enter a String: ");
         //  String course = in.nextLine();
 
