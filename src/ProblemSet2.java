@@ -29,10 +29,10 @@ public class ProblemSet2 {
          */
 
          System.out.print("\nEnter your first name: ");
-         String firstName = in.nextLine();
+         String nameFirst = in.nextLine();
 
          System.out.print("Enter your last name: ");
-         String lastName = in.nextLine();
+         String nameLast = in.nextLine();
 
          System.out.print("Enter your grade: ");
          int grade = in.nextInt();
@@ -45,7 +45,7 @@ public class ProblemSet2 {
          String hometown = in.nextLine();
 
 
-         System.out.println("\nNAME     : " + firstName + " " + lastName);
+         System.out.println("\nNAME     : " + nameFirst + " " + nameLast);
          System.out.println("GRADE    : " + grade);
          System.out.println("AGE      : " + age);
          System.out.println("HOMETOWN : " + hometown);
@@ -206,6 +206,7 @@ public class ProblemSet2 {
 
          System.out.print("\n\nEnter a side length: ");
          int side = in.nextInt();
+         in.nextLine();
 
          double hexagonArea = ((3 * java.lang.Math.sqrt(3)) / 2) * Math.pow(side, 2);
          double hexagonPerimeter = 6 * side;
@@ -220,9 +221,14 @@ public class ProblemSet2 {
          * Given a string, reverse and print the first and second halves of that string.
          */
 
-        //  System.out.print("Enter a String: ");
-        //  String course = in.nextLine();
+         System.out.print("\n\nEnter a String: ");
+         String course = in.nextLine();
 
+         int halfCourse = (int) (Math.round(course.length() / 2));
+         String halfFirst = course.substring(0, halfCourse);
+         String halfSecond = course.substring(halfCourse);
+
+         System.out.println("\n" + halfSecond + halfFirst);
 
         /*
          * Exercise 10.
@@ -230,7 +236,19 @@ public class ProblemSet2 {
          * Given a first, middle, and last name, print the corresponding initials.
          */
 
+         System.out.print("\nEnter your first name: ");
+         String nameFirstExTen = in.nextLine();
+         System.out.print("\nEnter your middle name: ");
+         String nameMiddleExTen = in.nextLine();
+         System.out.print("\nEnter your last name: ");
+         String nameLastExTen = in.nextLine();
 
+         String initialFirst = String.valueOf(nameFirstExTen.charAt(0));
+         String initialMiddle = String.valueOf(nameMiddleExTen.charAt(0));
+         String initialLast = String.valueOf(nameLastExTen.charAt(0));
+         String initials = (initialFirst + initialMiddle + initialLast);
+
+         System.out.println("\n" + initials);
 
         in.close();
     }
