@@ -61,11 +61,11 @@ public class ProblemSet2 {
          final int QUARTER = 25;
          final int DIME = 10;
          final int NICKEL = 5;
-         final int PENNY = 1;
+         //final int PENNY = 1;
 
          // System.out.print("\nEnter a dollar amount: ");
          // double total = in.nextDouble() * 100;
-         //
+
          // int amountDollar = (int) (total / DOLLAR);
          // total = total % DOLLAR;
          // int amountQuarter = (int) (total / QUARTER);
@@ -125,7 +125,20 @@ public class ProblemSet2 {
          final int inchesFeet = 12;
 
          System.out.print("\nEnter a number of inches: ");
-         total = in.nextInt();
+         double total = in.nextInt();
+
+         int amountMiles = (int) (total / inchesMile);
+         total = total % inchesMile;
+         int amountYards = (int) (total / inchesYard);
+         total = total % inchesYard;
+         int amountFeet = (int) (total / inchesFeet);
+         total = total % inchesFeet;
+         int amountInches = (int) (total);
+
+         System.out.println("\nMILES  : " + amountMiles);
+         System.out.println("YARDS  : " + amountYards);
+         System.out.println("FEET   : " + amountFeet);
+         System.out.println("INCHES : " + amountInches);
 
         /*
          * Exercise 5.
@@ -134,39 +147,79 @@ public class ProblemSet2 {
          * meters, and centimeters.
          */
 
-
-
-        /*
-         * Exercise 6.
-         *
-         * Given a diameter, print the area and circumference of the corresponding circle.
-         */
-
-
-
-        /*
-         * Exercise 7.
-         *
-         * Given a length and width, print the area, perimeter, and diagonal of the
-         * corresponding rectangle.
-         */
-
-
-
-        /*
-         * Exercise 8.
-         *
-         * Given a side length, print the area and perimeter of the corresponding hexagon.
-         */
-
-
-
-        /*
-         * Exercise 9.
-         *
-         * Given a string, reverse and print the first and second halves of that string.
-         */
-
+        //  final int CENTIMETER_KILOMETER = 100000;
+        //  final int CENTIMETER_METER = 10;
+        //
+        //  System.out.print("\nEnter a number of centimeters: ");
+        //  total = in.nextInt() * 100000;
+        //
+        //  int amountKilometer = (int) (total / CENTIMETER_KILOMETER);
+        //  total = total % CENTIMETER_KILOMETER;
+        //  int amountMeter = (int) (total / CENTIMETER_METER);
+        //  total = total % CENTIMETER_METER;
+        //  int amountCentimeter = (int) total;
+        //
+        //  System.out.println("\nKILOMETERS  : " + amountKilometer);
+        //  System.out.println("METERS      : " + amountMeter);
+        //  System.out.println("CENTIMETERS : " + amountCentimeter);
+        //
+        //
+        // /*
+        //  * Exercise 6.
+        //  *
+        //  * Given a diameter, print the area and circumference of the corresponding circle.
+        //  */
+        //
+        //  System.out.print("\nEnter a diameter: ");
+        //  double diameter = in.nextDouble();
+        //
+        //  double area = Math.PI * Math.pow((diameter / 2), 2);
+        //
+        //
+        // /*
+        //  * Exercise 7.
+        //  *
+        //  * Given a length and width, print the area, perimeter, and diagonal of the
+        //  * corresponding rectangle.
+        //  */
+        //
+        //  System.out.print("\nEnter a length: ");
+        //  int length = in.nextInt();
+        //  System.out.print("Enter a width: ");
+        //  int width = in.nextInt();
+        //
+        //  area = length * width;
+        //  double perimeter = (length * 2) + (width * 2);
+        //  double diagonal = java.lang.Math.sqrt(Math.pow(length, 2) + Math.pow(width, 2));
+        //
+        //  System.out.printf("%.2f\nAREA      : ", area);
+        //  System.out.printf("%.2f PERIMETER : ", perimeter);
+        //  System.out.printf("%.2f DIAGONAL  : ", diagonal);
+        //
+        // /*
+        //  * Exercise 8.
+        //  *
+        //  * Given a side length, print the area and perimeter of the corresponding hexagon.
+        //  */
+        //
+        //  System.out.print("\nEnter a side length: ");
+        //  int side = in.nextInt();
+        //
+        //  area = ((3 * java.lang.Math.sqrt(3)) / 2) * Math.pow(side, 2);
+        //  perimeter = 6 * side;
+        //
+        //  System.out.printf("%.2f \nAREA      : ", area);
+        //  System.out.printf("%.2f PERIMETER : ", perimeter);
+        //
+        //
+        // /*
+        //  * Exercise 9.
+        //  *
+        //  * Given a string, reverse and print the first and second halves of that string.
+        //  */
+        //
+        //  System.out.print("Enter a String: ");
+        //  String course = in.nextLine();
 
 
         /*
